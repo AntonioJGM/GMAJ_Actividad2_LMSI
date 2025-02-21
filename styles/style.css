@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Breaking Bad';
+    src: url(../breaking_b/Breaking\ Bad.ttf) format('truetype');
+}
+
+#body_index {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align: center;
+    font-family: Breaking Bad;
+    font-size: larger;
+    color: white;
+}
+
+#poster{
+    width: 700px;
+    height: 300px;
+    border-width: 10px;
+    border-style: outset;
+    border-color: brown;
+    border-radius: 22px;
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
+#body_tabla{
+    background-color: #0c3e11;
+    font-family: Helvetica;
+    text-align: center;
+    color: #2b2c24;
+}
+
+#cabecera{
+    height: auto;
+    width: auto;
+    margin: 15px;
+}
+
+table {
+    background-color: #2b2c24;
+    margin:auto;
+    table-layout: fixed;
+    border-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+td {
+    margin:0px;
+    padding:2px;
+    padding-bottom: 0px;
+    width: 50px;
+    height: 40px;
+    background-color: #c4c625;
+}
+
+.desaparecer {
+    empty-cells: hide;
+}
+
+.verde_lima {
+    background-color: #b7de10;
+}
+
+.verde_pastel {
+    background-color: #d4e77d;
+}
+
+.verde_oliva {
+    background-color: #637028;
+}
+
+.verde_cesped {
+    background-color: #89a419;
+}
+
+.verde_claro {
+    background-color: #c5e249;
+}
+
+.verde_mequedosinnombres {
+    background-color: #838e53;
+}
+
+.gris {
+    background-color: #bcc49b;
+}
+
+.blanco {
+    background-color: #edf4c5;
+}
+
+#lila {
+    background-color: #ab8fcc;
+}
+
+#celda_rara{
+    background: linear-gradient(to right, #b7de10 50%, #edf4c5 50%);
+}
+
+#hank {
+    width: 40px;
+    height: 80px;
+    margin: 0px;
+}
+
+img{
+    margin:0px;
+    margin-bottom:0;
+    height: 50px;
+    width: 50px;
+}
+
+.letra {
+    margin:0px;
+    margin-top: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nombre {
+    font-size:7px;
+    margin: 0px;
+    text-align: center;
+}
+
+#body_formulario {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align: center;
+    font-family: helvetica;
+}
+
+form {
+    border-style:inset;
+    border-width: 5px;
+    border-radius: 50px;
+    height: fit-content;
+    width:fit-content;
+    padding: 30px;
+    background-color: rgba(26, 177, 236,0.5);
+    margin: auto;
+}
+
+.campos_form {
+    font-weight: bold;
+    display: list-item;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
