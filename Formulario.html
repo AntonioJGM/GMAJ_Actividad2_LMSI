@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body id="body_formulario">
+    <h1>Breaking  Bad  –  Que  comience  el  juego!</h1>
+    <form action="raul.rodriguez@proeducaglobal.com" name="Formulario" method="post">
+        <div class="campos_form">Nombre: <input type="text" name="Nombre" placeholder="Escribe tu nombre" required></div>
+        <div class="campos_form">Apellidos: <input type="text" name="Apellidos" placeholder="Escribe tu apellido" required></div>
+        <div class="campos_form">Dirección postal: <input type="text"  name="Dirección postal" placeholder="Escribe tu dirección"></div>
+        <div class="campos_form">Código postal: <input type="text" name="Código postal" placeholder="Escribe el código postal"></div>
+        <div class="campos_form">Ciudad: <input type="text" name="Ciudad" placeholder="Escribe el nomrbe de la cuidad"></div>
+        <div class="campos_form">DNI: <input type="text" name="DNI" placeholder="12345678X"></div>
+        <div class="campos_form">Correo electrónico: <input type="email" name="Email" placeholder="nombre@dominio.com" required ></div>
+        <div class="campos_form">Sexo: <input type="radio" Name="Sexo" value="H">Hombre
+            <input type="radio" Name="Sexo" value="M">Mujer</div>
+        <div class="campos_form">Fecha de nacimiento: <input type="date" ></div>
+        <div class="campos_form">Personaje favorito: <input list="Persoanjes" placeholder="Personaje"></div>
+            <datalist id="Persoanjes">
+                <option value="Jessie Pinkman">Jessie Pinkman</option>
+                <option value="Walter White">Walter White</option>
+                <option value="Saul Goodman">Saul Goodman</option>
+                <option value="Gustavo Fring">Gustavo Fring</option>
+                <option value="Pollos Hermanos">Pollos Hermanos</option>
+                <option value="Otros personajes">Otros personajes</option>
+            </datalist>
+        </div>
+        <div class="campos_form">Comentario: <textarea name="Comentario" placeholder="Escribe aquí..."></textarea></div>
+        <div class="campos_form"><input type="file" name="adjunto" accept=".pdf,.png,.jpg" multiple></div>
+        <div class="campos_form">
+            <input type="reset" value="Borrar formulario">
+            <input type="submit" value="Enviar formulario">
+        </div>
+   </form>
+</body>
+</html>
